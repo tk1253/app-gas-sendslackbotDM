@@ -17,7 +17,7 @@ function main() {
   const rowBegin = 2; // シートに合わせて変更
   const rowEnd = 33; // シートに合わせて変更
   const APIMethodUrl = "https://slack.com/api/chat.postMessage";
-　// 実行ボタンの確認メッセージ
+  // 実行ボタンの確認メッセージ
   const MsgBox = Browser.msgBox("GASを実行し、ユーザーにメッセージを送信します", Browser.Buttons.OK_CANCEL);
   if (MsgBox == "cancel") {
     Browser.msgBox("GASの実行を中止しました");
