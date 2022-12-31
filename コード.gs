@@ -54,7 +54,7 @@ function createMessage(row) {
   let msgSubject7 = sheetName.getRange(1,10).getValue();
   let msgSubject8 = sheetName.getRange(1,11).getValue();
   
-// 送信されるメッセージの形式（msgSubject1（件名）＋msgContent1（内容）＋改行で調整）
+// 送信されるメッセージの形式（msgSubject（件名）＋msgContent（内容）＋改行で調整）
   let message = ("\n\n"+ msgSubject1 +"\n"+ msgContent1+ "\n\n"+ msgSubject2 +"\n"+ msgContent2+ "\n\n"+ msgSubject3 +"\n"+ msgContent3+ "\n\n"+ msgSubject4 +"\n"+ msgContent4+ "\n\n"+ msgSubject5 +"\n"+ msgContent5+ "\n\n"+ msgSubject6 +"\n"+ msgContent6+ "\n\n"+ msgSubject7 +"\n"+ msgContent7+ "\n\n"+ msgSubject8 +"\n"+ msgContent8 ); 
 
   return message;
